@@ -5,6 +5,7 @@ import { MenuSectionView } from './components/MenuSectionView.tsx';
 import { CartDrawer, CartItem } from './components/CartDrawer.tsx';
 import { OutletHeroCover, OutletFooter } from './components/OutletInfo.tsx';
 import { MENU_SECTIONS, MenuItem } from './data/menuData.ts';
+import bgWoodUrl from './assets/bg-wood.jpg';
 
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -71,7 +72,19 @@ export default function App() {
     : MENU_SECTIONS.filter((s) => s.id === selectedCategory);
 
   return (
-    <div className="min-h-screen flex flex-col selection:bg-[#70bf44] selection:text-black">
+    <div className="min-h-screen flex flex-col selection:bg-[#70bf44] selection:text-black relative">
+      {/* Textured Dark Gray Oak Wood Background */}
+      <div
+        className="fixed inset-0 pointer-events-none -z-10"
+        style={{
+          backgroundImage: `linear-gradient(rgba(14, 16, 19, 0.35), rgba(14, 16, 19, 0.45)), url(${bgWoodUrl})`,
+          backgroundRepeat: 'repeat',
+          backgroundSize: '480px auto',
+          backgroundAttachment: 'fixed',
+          backgroundColor: '#1b1d22',
+        }}
+      />
+
       {/* Top Sticky Navigation */}
       <Navbar
         searchQuery={searchQuery}
