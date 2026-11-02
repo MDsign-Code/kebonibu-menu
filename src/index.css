@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-wood: #dfd4c4;
+    --board-bg: #141618;
+    --board-card: #1c1e22;
+    --board-border: #2a2e35;
+    --gold: #f2ba49;
+    --green: #70bf44;
+    --green-dark: #4f962b;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-serif: 'Playfair Display', serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--board-bg);
+    background-image: linear-gradient(rgba(20, 22, 24, 0.88), rgba(20, 22, 24, 0.94)), url('/images/bg-wood.jpg');
+    background-repeat: repeat;
+    background-size: 600px auto;
+    background-attachment: fixed;
+    color: #e2e8f0;
+    min-height: 100vh;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #16181b;
+}
+::-webkit-scrollbar-thumb {
+  background: #2f343d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #47505e;
+}
+
+/* Font classes */
+.font-serif-brand {
+  font-family: var(--font-serif);
+}
+
+.font-heading {
+  font-family: var(--font-montserrat);
+}
+
+/* Shimmer animation for loading states */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, #1c1e22 25%, #2a2e35 50%, #1c1e22 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s infinite;
+}

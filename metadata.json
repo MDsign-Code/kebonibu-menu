@@ -1,0 +1,6 @@
+{
+  "name": "Kebonibu Food Park & Cafe - Menu Digital",
+  "description": "Menu digital interaktif Kebonibu Food Park & Cafe dengan pesanan WhatsApp dan katalog lengkap olahan rempah Nusantara.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
