@@ -258,28 +258,52 @@ export const MENU_SECTIONS: MenuSection[] = [
     ]
   },
   {
-    id: "minuman",
-    title: "MINUMAN, KOPI & WEDANG",
+    id: "kopi",
+    title: "ANEKA KOPI (HOT & ICED)",
+    subtitle: "Racikan Kopi Nusantara & Espresso Based Pilihan",
     items: [
-      { id: "dr-1", name: "Espresso (Hot)", price: 18, category: "minuman" },
-      { id: "dr-2", name: "Black Coffee (Ice)", price: 27, category: "minuman" },
-      { id: "dr-3", name: "Kopi Susu Gula Aren (Ice)", price: 27, category: "minuman" },
-      { id: "dr-4", name: "Dolce Latte (Ice)", price: 27, category: "minuman" },
-      { id: "dr-5", name: "Caramel / Hazelnut Latte (Ice)", price: 29, category: "minuman" },
-      { id: "dr-6", name: "Cappuccino (Hot/Ice)", price: 27, category: "minuman" },
-      { id: "dr-7", name: "Avocado Coffee (Ice)", price: 30, category: "minuman" },
-      { id: "dr-8", name: "Sea Salt Latte (Ice)", price: 29, category: "minuman" },
-      { id: "dr-9", name: "Teh Manis (Ice)", price: 10, category: "minuman" },
-      { id: "dr-10", name: "Lemon Tea (Ice)", price: 25, category: "minuman" },
-      { id: "dr-11", name: "Thai Tea (Ice)", price: 30, category: "minuman" },
-      { id: "dr-12", name: "Teh Poci (Hot)", price: 27, category: "minuman" },
-      { id: "dr-13", name: "Wedang Jahe", price: 8, category: "minuman" },
-      { id: "dr-14", name: "Wedang Uwuh", price: 15, category: "minuman" },
-      { id: "dr-15", name: "Bir Pletok", price: 15, category: "minuman" },
-      { id: "dr-16", name: "Fresh Juice Alpukat", price: 29, category: "minuman" },
-      { id: "dr-17", name: "Fresh Juice Mangga", price: 29, category: "minuman" },
-      { id: "dr-18", name: "Leci Yakult", price: 27, category: "minuman" },
-      { id: "dr-19", name: "Mojitoberry Squash", price: 29, category: "minuman" }
+      { id: "kp-1", name: "Kopi Susu Gula Aren (Iced)", price: 27, category: "kopi", sub: "Signature es kopi susu creamy dengan legit gula aren murni", variant: "🧊 Iced" },
+      { id: "kp-2", name: "Kopi Susu Gula Aren (Hot)", price: 25, category: "kopi", sub: "Kopi susu hangat lembut berpadu gula aren wangi", variant: "♨️ Hot" },
+      { id: "kp-3", name: "Black Coffee / Americano (Iced)", price: 27, category: "kopi", sub: "Kopi hitam dingin segar dengan crema lembut", variant: "🧊 Iced" },
+      { id: "kp-4", name: "Black Coffee / Americano (Hot)", price: 25, category: "kopi", sub: "Kopi hitam panas kaya aroma dan rasa mantap", variant: "♨️ Hot" },
+      { id: "kp-5", name: "Espresso Single (Hot)", price: 18, category: "kopi", sub: "Ekstraksi kopi murni pekat beraroma kuat", variant: "♨️ Hot" },
+      { id: "kp-6", name: "Espresso Double (Hot)", price: 22, category: "kopi", sub: "Double shot espresso mantap kaya energi", variant: "♨️ Hot" },
+      { id: "kp-7", name: "Cappuccino (Iced)", price: 29, category: "kopi", sub: "Espresso dingin dengan susu segar dan foam lembut", variant: "🧊 Iced" },
+      { id: "kp-8", name: "Cappuccino (Hot)", price: 27, category: "kopi", sub: "Kombinasi espresso, steamed milk, dan busa tebal", variant: "♨️ Hot" },
+      { id: "kp-9", name: "Caffè Latte (Iced)", price: 28, category: "kopi", sub: "Espresso dingin dengan susu segar lembut", variant: "🧊 Iced" },
+      { id: "kp-10", name: "Caffè Latte (Hot)", price: 26, category: "kopi", sub: "Kopi susu hangat lembut dengan latte art", variant: "♨️ Hot" },
+      { id: "kp-11", name: "Dolce Latte (Iced)", price: 27, category: "kopi", sub: "Kopi susu dingin manis creamy favorit santai", variant: "🧊 Iced" },
+      { id: "kp-12", name: "Dolce Latte (Hot)", price: 27, category: "kopi", sub: "Espresso hangat berpadu susu manis legit yang memanjakan", variant: "♨️ Hot" },
+      { id: "kp-13", name: "Caramel Latte (Iced)", price: 29, category: "kopi", sub: "Kopi latte dingin dengan sirup karamel harum", variant: "🧊 Iced" },
+      { id: "kp-14", name: "Caramel Latte (Hot)", price: 29, category: "kopi", sub: "Espresso hangat dengan sirup karamel gurih manis", variant: "♨️ Hot" },
+      { id: "kp-15", name: "Hazelnut Latte (Iced)", price: 29, category: "kopi", sub: "Kopi latte dingin dengan aroma kacang hazelnut khas", variant: "🧊 Iced" },
+      { id: "kp-16", name: "Hazelnut Latte (Hot)", price: 29, category: "kopi", sub: "Aroma kacang hazelnut harum berpadu kopi hangat", variant: "♨️ Hot" },
+      { id: "kp-17", name: "Sea Salt Latte (Iced)", price: 29, category: "kopi", sub: "Perpaduan unik rasa kopi manis gurih sea salt dingin", variant: "🧊 Iced" },
+      { id: "kp-18", name: "Sea Salt Latte (Hot)", price: 29, category: "kopi", sub: "Kopi latte hangat dengan sentuhan gurih sea salt cream", variant: "♨️ Hot" },
+      { id: "kp-19", name: "Avocado Coffee (Iced)", price: 30, category: "kopi", sub: "Jus alpukat kental segar disiram espresso shot pekat", variant: "🧊 Iced" },
+      { id: "kp-20", name: "Mochaccino (Iced)", price: 30, category: "kopi", sub: "Perpaduan kopi cokelat dingin segar dan creamy", variant: "🧊 Iced" },
+      { id: "kp-21", name: "Mochaccino (Hot)", price: 28, category: "kopi", sub: "Perpaduan kopi espresso hangat dan cokelat kaya rasa", variant: "♨️ Hot" }
+    ]
+  },
+  {
+    id: "minuman",
+    title: "MINUMAN SEGAR & WEDANG TRADISIONAL",
+    subtitle: "Teh Nusantara, Wedang Rempah Hangat & Aneka Jus Buah",
+    items: [
+      { id: "dr-1", name: "Teh Manis (Ice)", price: 10, category: "minuman", variant: "🧊 Iced" },
+      { id: "dr-2", name: "Teh Manis (Hot)", price: 10, category: "minuman", variant: "♨️ Hot" },
+      { id: "dr-3", name: "Lemon Tea (Ice)", price: 25, category: "minuman", variant: "🧊 Iced" },
+      { id: "dr-4", name: "Lemon Tea (Hot)", price: 25, category: "minuman", variant: "♨️ Hot" },
+      { id: "dr-5", name: "Thai Tea (Ice)", price: 30, category: "minuman", variant: "🧊 Iced" },
+      { id: "dr-6", name: "Teh Poci Gula Batu (Hot)", price: 27, category: "minuman", sub: "Seduhan teh wangi melati dalam poci tanah liat asli", variant: "♨️ Hot" },
+      { id: "dr-7", name: "Wedang Jahe (Hot)", price: 8, category: "minuman", sub: "Jahe geprek segar penghangat tubuh alami", variant: "♨️ Hot" },
+      { id: "dr-8", name: "Wedang Uwuh (Hot)", price: 15, category: "minuman", sub: "Rempah tradisional secang, cengkeh, kayu manis & jahe", variant: "♨️ Hot" },
+      { id: "dr-9", name: "Bir Pletok Tradisional (Hot)", price: 15, category: "minuman", sub: "Minuman rempah khas Betawi tanpa alkohol yang hangat menyehatkan", variant: "♨️ Hot" },
+      { id: "dr-10", name: "Bir Pletok Tradisional (Ice)", price: 15, category: "minuman", sub: "Sensasi rempah dingin menyegarkan", variant: "🧊 Iced" },
+      { id: "dr-11", name: "Fresh Juice Alpukat", price: 29, category: "minuman", sub: "Alpukat mentega asli kental dengan susu kental manis", variant: "🧊 Iced" },
+      { id: "dr-12", name: "Fresh Juice Mangga", price: 29, category: "minuman", sub: "Mangga harum manis segar kaya vitamin", variant: "🧊 Iced" },
+      { id: "dr-13", name: "Leci Yakult", price: 27, category: "minuman", sub: "Sirup leci manis berpadu asam segar probiotik Yakult", variant: "🧊 Iced" },
+      { id: "dr-14", name: "Mojitoberry Squash", price: 29, category: "minuman", sub: "Soda dingin dengan sari berry dan daun mint segar", variant: "🧊 Iced" }
     ]
   }
 ];
@@ -294,5 +318,6 @@ export const CATEGORIES = [
   { id: "seafood", label: "Seafood", icon: "🐟" },
   { id: "ayam-sayur", label: "Ayam & Sayur", icon: "🍗" },
   { id: "snack", label: "Snack & Roti", icon: "🍟" },
-  { id: "minuman", label: "Minuman & Kopi", icon: "☕" }
+  { id: "kopi", label: "Aneka Kopi", icon: "☕" },
+  { id: "minuman", label: "Minuman & Wedang", icon: "🍹" }
 ];

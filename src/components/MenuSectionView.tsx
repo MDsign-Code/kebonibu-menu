@@ -175,7 +175,15 @@ export const MenuSectionView: React.FC<MenuSectionViewProps> = ({
                 <div className="font-semibold text-sm sm:text-base text-gray-100 group-hover:text-white truncate">
                   {item.name}
                   {item.variant && (
-                    <span className="text-xs font-normal text-amber-300 ml-1">
+                    <span
+                      className={`text-[11px] font-semibold px-2 py-0.5 rounded-md border ml-1.5 inline-flex items-center gap-0.5 ${
+                        item.variant.includes('Hot')
+                          ? 'bg-amber-500/15 text-amber-300 border-amber-500/30'
+                          : item.variant.includes('Ice')
+                          ? 'bg-sky-500/15 text-sky-300 border-sky-500/30'
+                          : 'bg-white/10 text-gray-300 border-white/20'
+                      }`}
+                    >
                       {item.variant}
                     </span>
                   )}
