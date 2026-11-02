@@ -8,7 +8,7 @@ export const OutletHeroCover: React.FC = () => {
       <div className="absolute inset-0 bg-radial from-[#70bf44]/10 via-transparent to-transparent pointer-events-none" />
 
       <img
-        src="/images/logo-kebonibu.png"
+        src="./images/logo-kebonibu.png"
         alt="Kebonibu Food park & Cafe"
         className="h-24 sm:h-32 w-auto max-w-[280px] sm:max-w-[340px] object-contain mx-auto mb-4 drop-shadow-[0_10px_25px_rgba(0,0,0,0.8)] hover:scale-105 transition-transform"
       />
@@ -66,7 +66,7 @@ export const OutletFooter: React.FC = () => {
     <footer className="mt-16 bg-[#181a1e] border-t-2 border-[#2b303a] py-10 px-4 text-center">
       <div className="max-w-xl mx-auto space-y-4">
         <img
-          src="/images/logo-kebonibu.png"
+          src="./images/logo-kebonibu.png"
           alt="Kebonibu Food park & Cafe"
           className="h-16 w-auto max-w-[200px] object-contain mx-auto drop-shadow-md"
         />

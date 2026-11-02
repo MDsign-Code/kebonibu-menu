@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           title="Kebonibu Food park & Cafe"
         >
           <img 
-            src="/images/logo-kebonibu.png" 
+            src="./images/logo-kebonibu.png" 
             alt="Kebonibu Food park & Cafe" 
             className="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105"
           />

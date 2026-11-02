@@ -17,7 +17,7 @@
   body {
     font-family: var(--font-body);
     background-color: var(--board-bg);
-    background-image: linear-gradient(rgba(20, 22, 24, 0.88), rgba(20, 22, 24, 0.94)), url('/images/bg-wood.jpg');
+    background-image: linear-gradient(rgba(20, 22, 24, 0.88), rgba(20, 22, 24, 0.94)), url('./images/bg-wood.jpg');
     background-repeat: repeat;
     background-size: 600px auto;
     background-attachment: fixed;

@@ -35,7 +35,7 @@ export const MENU_SECTIONS: MenuSection[] = [
         price: 98,
         sub: "Pilihan: Iga Bakar bumbu kacang gurih manis atau Sup Iga kuah rempah kluwek khas Kebonibu",
         badge: "Best Price",
-        image: "/images/konro-bakar.jpg",
+        image: "./images/konro-bakar.jpg",
         category: "special"
       },
       {
@@ -44,7 +44,7 @@ export const MENU_SECTIONS: MenuSection[] = [
         price: 198,
         sub: "Porsi istimewa utuh kepala & kaki dengan kuah gulai rempah kental gurih khas Kebonibu",
         badge: "Signature Menu",
-        image: "/images/gulai-kepala-kambing.jpg",
+        image: "./images/gulai-kepala-kambing.jpg",
         category: "special"
       }
     ]
